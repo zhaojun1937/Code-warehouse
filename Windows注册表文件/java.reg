@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.java]
+@="JavaFile"
+"PerceivedType"="text"
+"Content Type"="text/plain"
+
+[HKEY_CLASSES_ROOT\.java\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\javaFile]
+@="java File"
+
+[HKEY_CLASSES_ROOT\javaFile\DefaultIcon]
+@="%SystemRoot%\system32\imageres.dll,-102"
+
+[HKEY_CLASSES_ROOT\javaFile\shell]
+
+[HKEY_CLASSES_ROOT\javaFile\shell\open]
+
+[HKEY_CLASSES_ROOT\javaFile\shell\open\command]
+@="%SystemRoot%\system32\NOTEPAD.EXE %1"
